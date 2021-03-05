@@ -91,9 +91,9 @@ GameObject:
   - component: {fileID: 3272490269265099357}
   - component: {fileID: 3272490269271975535}
   - component: {fileID: 6182165059933937817}
-  - component: {fileID: 1893845206556923321}
   - component: {fileID: 4849160096676240918}
-  - component: {fileID: 1639864356}
+  - component: {fileID: 827732919222060718}
+  - component: {fileID: 4589199709354332150}
   m_Layer: 0
   m_Name: Animal_Fox_01
   m_TagString: Untagged
@@ -159,18 +159,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 10
---- !u!114 &1893845206556923321
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3272490269264622599}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e9d48e693ff9a814aaf9f3d5e2400310, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &4849160096676240918
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -184,7 +172,7 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.07415438, y: 0.28320274, z: 0.34540614}
   m_Center: {x: -0.0024088265, y: 0.1178627, z: 0.012184721}
---- !u!114 &1639864356
+--- !u!114 &827732919222060718
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -193,7 +181,19 @@ MonoBehaviour:
   m_GameObject: {fileID: 3272490269264622599}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 614b6245194b51e41aa4acb50cfcd575, type: 3}
+  m_Script: {fileID: 11500000, guid: 2c52ee72091692143869a36cdefe1fd7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &4589199709354332150
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3272490269264622599}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81e62e9a8a22fac478a927ce940e28f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &3272490269264625213

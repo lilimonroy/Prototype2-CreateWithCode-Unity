@@ -411,9 +411,9 @@ GameObject:
   - component: {fileID: 744354439130209668}
   - component: {fileID: 744354439137083624}
   - component: {fileID: 993992616444241273}
-  - component: {fileID: 1986746619787670834}
   - component: {fileID: 4205009080103333134}
-  - component: {fileID: 1268657600}
+  - component: {fileID: 2464537512081191616}
+  - component: {fileID: 3850639499762986240}
   m_Layer: 0
   m_Name: Animal_Moose_01
   m_TagString: Untagged
@@ -477,18 +477,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 10
---- !u!114 &1986746619787670834
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 744354439129959414}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e9d48e693ff9a814aaf9f3d5e2400310, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &4205009080103333134
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -502,7 +490,7 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.19918525, y: 0.51379025, z: 0.44515008}
   m_Center: {x: -0.0000005418604, y: 0.24310498, z: 0.071501106}
---- !u!114 &1268657600
+--- !u!114 &2464537512081191616
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -511,7 +499,19 @@ MonoBehaviour:
   m_GameObject: {fileID: 744354439129959414}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 614b6245194b51e41aa4acb50cfcd575, type: 3}
+  m_Script: {fileID: 11500000, guid: 2c52ee72091692143869a36cdefe1fd7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &3850639499762986240
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 744354439129959414}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81e62e9a8a22fac478a927ce940e28f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &744354439129960688
